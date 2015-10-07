@@ -26,4 +26,5 @@ machineId项配置自定义的值，可以使用自己的拼音（必须与web�
 resin3.conf
 root-directory配置当前应用的根目录
 
+三、eclipse中项目编码设置为gbk。
 
