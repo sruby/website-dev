@@ -1,4 +1,4 @@
-一、function功能号开发规范
+一、bus开发规范
 主要在以下三个配置文件添加功能号：（功能号中禁止做数据库操作，或者调用第三方系统接口，需要在service中处理）
 func_bussiness.xml 工作平台自定义业务功能
 function-web.xml  接入层调用bus功能号
@@ -8,3 +8,11 @@ function-timer.xml  模板调用bus功能号
 com/project/service/bussiness
 com/project/service/web
 com/project/service/timer
+
+二、接入层开发规范
+1、目录规范
+样式文件目录：/front/style
+js脚本目录：/front/scripts
+js插件目录：/plugins
+文件上传目录：/upload
+静态文件发布目录:/main
